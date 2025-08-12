@@ -695,6 +695,52 @@
           </ul>
 
           <br><br><br>
+
+          <!-- View & Download Resume Buttons -->
+<div style="display: flex; gap: 10px; justify-content: center;">
+
+    <!-- View Resume -->
+    <a href="resume.pdf" target="_blank" class="form-btn" style="text-decoration: none;">
+        <ion-icon name="eye"></ion-icon>
+        <span>View Resume</span>
+    </a>
+
+    <!-- Download Resume -->
+    <a href="resume.pdf" download class="form-btn" style="text-decoration: none;">
+        <ion-icon name="download"></ion-icon>
+        <span>Download Resume</span>
+    </a>
+
+</div>
+
+<!-- Example Styling -->
+<style>
+    .form-btn {
+        background-color: #0B6E4F;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: background 0.3s;
+    }
+    .form-btn:hover {
+        background-color: #064420;
+    }
+    ion-icon {
+        font-size: 18px;
+    }
+</style>
+
+<!-- Include Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+          
           <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Download Resume</span>
