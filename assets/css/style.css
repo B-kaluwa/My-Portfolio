@@ -120,7 +120,7 @@
 \*-----------------------------------*/
 
 *, *::before, *::after {
-  margin: 0;
+  margin: 50;
   padding: 0;
   box-sizing: border-box;
 }
