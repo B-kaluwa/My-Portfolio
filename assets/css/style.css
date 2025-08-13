@@ -120,7 +120,7 @@
 \*-----------------------------------*/
 
 *, *::before, *::after {
-  margin: 50;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -320,7 +320,7 @@ main {
 .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
-  overflow: hidden;
+  overflow: scroll;
   transition: var(--transition-2);
 }
 
@@ -1038,7 +1038,7 @@ main {
   #BLOG
 \*-----------------------------------*/
 
-.blog-posts { margin-bottom: 10px; padding:50;}
+.blog-posts { margin-bottom: 50px; padding:50;}
 
 .blog-posts-list {
   display: linear;
@@ -1859,7 +1859,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contact-info :is(.contact-link) {
     white-space: nowrap;
-    overflow: hidden;
+    overflow: scroll;
     text-overflow: ellipsis;
   }
 
