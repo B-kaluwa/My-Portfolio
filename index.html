@@ -1884,107 +1884,375 @@ I am particularly interested in full-stack development, cybersecurity, cloud tec
           <ul class="project-list">
 
 
-
-
-
-
-
-			  <li class="project-item active" data-filter-item data-category="web development" style="position: relative;">
-
-    <!-- Project Card -->
+<!-- 1. INFORMATION PROJECT - RIVER -->
+<li class="project-item active" data-filter-item data-category="web development" style="position: relative;">
     <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
-        <img src="./assets/images/pbksc.PNG" alt="PBK Freelancing Platform" loading="lazy" style="width: 100%; display: block;">
-        
-        <button type="button" aria-label="View PBK project details" onclick="openProjectModal('pbk-modal')"
-            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;"
-            onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'" onfocus="this.style.opacity='1'" onblur="this.style.opacity='0'">
+        <img src="./assets/images/rmsc.PNG" alt="information website site" loading="lazy" style="width: 100%; display: block;">
+        <button type="button" onclick="openProjectModal(event, 'river-modal')" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'">
             <ion-icon name="eye-outline"></ion-icon>
         </button>
     </figure>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">River Information Website</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">HTML5</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">CSS3</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">CSS Course Project</span>
+    </div>
+    <p class="project-category" style="color: #A1A1AA;">Web Development</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 12px;">
+        <a href="https://b-kaluwa.github.io/RiverinMw/" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; text-decoration: none; font-size: 13px; font-weight: 600;">Live Demo</a>
+        <button type="button" onclick="openProjectModal(event, 'river-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">View Details</button>
+    </div>
+</li>
 
-    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">PBK Freelancing Platform</h3>
+<!-- 2. PBK FREELANCING -->
+<li class="project-item active" data-filter-item data-category="web development" style="position: relative;">
+    <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
+        <img src="./assets/images/pbksc.PNG" alt="freelancing site" loading="lazy" style="width: 100%; display: block;">
+        <button type="button" onclick="openProjectModal(event, 'pbk-modal')" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'">
+            <ion-icon name="eye-outline"></ion-icon>
+        </button>
+    </figure>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">PBK Freelancing site</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">HTML</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">CSS</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">PHP</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">MySQL</span>
+    </div>
+    <p class="project-category" style="color: #A1A1AA;">Web Development</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 12px;">
+        <a href="https://b-kaluwa.github.io/PBK-freelancing/" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; text-decoration: none; font-size: 13px; font-weight: 600;">Live Demo</a>
+        <button type="button" onclick="openProjectModal(event, 'pbk-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">View Details</button>
+    </div>
+</li>
 
+<!-- 3. UPGRADE LEARNING -->
+<li class="project-item active" data-filter-item data-category="web design" style="position: relative;">
+    <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
+        <img src="./assets/images/upgrade.png" alt="Upgrade learning" loading="lazy" style="width: 100%; display: block;">
+        <button type="button" onclick="openProjectModal(event, 'upgrade-modal')" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'">
+            <ion-icon name="eye-outline"></ion-icon>
+        </button>
+    </figure>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">Upgrade learning platform</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">HTML</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">CSS</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">UI Design</span>
+    </div>
+    <p class="project-category" style="color: #A1A1AA;">Web Design</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 12px;">
+        <a href="https://b-kaluwa.github.io/Upgrade-learning/index.html" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; text-decoration: none; font-size: 13px; font-weight: 600;">Live Demo</a>
+        <button type="button" onclick="openProjectModal(event, 'upgrade-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">View Details</button>
+    </div>
+</li>
+
+<!-- 4. ATIA -->
+<li class="project-item active" data-filter-item data-category="applications" style="position: relative;">
+    <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
+        <img src="./assets/images/Project-atia1.PNG" alt="ATIA" loading="lazy" style="width: 100%; display: block;">
+        <button type="button" onclick="openProjectModal(event, 'atia-modal')" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'">
+            <ion-icon name="eye-outline"></ion-icon>
+        </button>
+    </figure>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">Android Tracker Investment Application</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Android</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Java</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Investment Tracker</span>
+    </div>
+    <p class="project-category" style="color: #A1A1AA;">Applications</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 12px;">
+        <button type="button" onclick="openProjectModal(event, 'atia-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">View Details</button>
+    </div>
+</li>
+
+<!-- 5. MOBIDOWNLOADS -->
+<li class="project-item active" data-filter-item data-category="web design" style="position: relative;">
+    <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
+        <img src="./assets/images/mobidownloads.png" alt="mobidownloads." loading="lazy" style="width: 100%; display: block;">
+        <button type="button" onclick="openProjectModal(event, 'mobi-modal')" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'">
+            <ion-icon name="eye-outline"></ion-icon>
+        </button>
+    </figure>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">Mobidownloads.</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">HTML</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">CSS</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Download Portal</span>
+    </div>
+    <p class="project-category" style="color: #A1A1AA;">Web Design</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 12px;">
+        <a href="https://b-kaluwa.github.io/MobiDownloads/index.html" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; text-decoration: none; font-size: 13px; font-weight: 600;">Live Demo</a>
+        <button type="button" onclick="openProjectModal(event, 'mobi-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">View Details</button>
+    </div>
+</li>
+
+<!-- 6. TYPEFLOW -->
+<li class="project-item active" data-filter-item data-category="web development" style="position: relative;">
+    <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
+        <img src="./assets/images/typeflowsc.PNG" alt="typeflow" loading="lazy" style="width: 100%; display: block;">
+        <button type="button" onclick="openProjectModal(event, 'typeflow-modal')" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'">
+            <ion-icon name="eye-outline"></ion-icon>
+        </button>
+    </figure>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">Typeflow</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
         <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">HTML</span>
         <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">CSS</span>
         <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">JavaScript</span>
-        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">PHP</span>
-        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">MySQL</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Typing App</span>
     </div>
-
     <p class="project-category" style="color: #A1A1AA;">Web Development</p>
-
-    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 15px; margin-top: 12px;">
-        <a href="https://b-kaluwa.github.io/PBK-freelancing/" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; text-decoration: none; font-size: 13px; font-weight: 600;">Live Demo</a>
-        <a href="https://github.com/B-kaluwa/PBK-freelancing" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; text-decoration: none; font-size: 13px; font-weight: 600;">GitHub</a>
-        <button type="button" onclick="openProjectModal('pbk-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">
-            View Details <ion-icon name="chevron-down-outline" style="vertical-align: middle; margin-left: 3px;"></ion-icon>
-        </button>
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 12px;">
+        <a href="https://b-kaluwa.github.io/Typing-Advanced/" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; text-decoration: none; font-size: 13px; font-weight: 600;">Live Demo</a>
+        <button type="button" onclick="openProjectModal(event, 'typeflow-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">View Details</button>
     </div>
 </li>
 
-<!-- POP-UP DIALOG BOX -->
-<div id="pbk-modal" class="project-modal-overlay" hidden onclick="if(event.target === this) closeProjectModal('pbk-modal')"
-     style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
-
-    <div class="project-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title-pbk"
-         style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #D4AF37 #111;">
-
-        <!-- Close Button -->
-        <button type="button" aria-label="Close dialog" onclick="closeProjectModal('pbk-modal')"
-                style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;">
-            <ion-icon name="close-outline"></ion-icon>
+<!-- 7. VIWEMI LIVESTOCK -->
+<li class="project-item active" data-filter-item data-category="web development" style="position: relative;">
+    <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
+        <img src="./assets/images/viwemi.png" alt="viwemi website" loading="lazy" style="width: 100%; display: block;">
+        <button type="button" onclick="openProjectModal(event, 'viwemi-modal')" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'">
+            <ion-icon name="eye-outline"></ion-icon>
         </button>
+    </figure>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">Viwemi Livestock</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">HTML</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">CSS</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Business Site</span>
+    </div>
+    <p class="project-category" style="color: #A1A1AA;">Web Development</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 12px;">
+        <button type="button" onclick="openProjectModal(event, 'viwemi-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">View Details</button>
+    </div>
+</li>
 
-        <!-- Image Preview with Project Name Overlay -->
+<!-- 8. VETCARE -->
+<li class="project-item active" data-filter-item data-category="applications" style="position: relative;">
+    <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
+        <img src="./assets/images/Vetcare.png" alt="vetcare application" loading="lazy" style="width: 100%; display: block;">
+        <button type="button" onclick="openProjectModal(event, 'vetcare-modal')" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'">
+            <ion-icon name="eye-outline"></ion-icon>
+        </button>
+    </figure>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">Vetcare</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Android</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Veterinary App</span>
+    </div>
+    <p class="project-category" style="color: #A1A1AA;">Applications</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 12px;">
+        <button type="button" onclick="openProjectModal(event, 'vetcare-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">View Details</button>
+    </div>
+</li>
+
+<!-- 9. KEEPIT -->
+<li class="project-item active" data-filter-item data-category="applications" style="position: relative;">
+    <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
+        <img src="./assets/images/keepit.png" alt="keepit" loading="lazy" style="width: 100%; display: block;">
+        <button type="button" onclick="openProjectModal(event, 'keepit-modal')" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'">
+            <ion-icon name="eye-outline"></ion-icon>
+        </button>
+    </figure>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">Keepit</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Android</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Notes App</span>
+    </div>
+    <p class="project-category" style="color: #A1A1AA;">Applications</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 12px;">
+        <button type="button" onclick="openProjectModal(event, 'keepit-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">View Details</button>
+    </div>
+</li>
+
+<!-- 10. VALENTINE WEBSITE -->
+<li class="project-item active" data-filter-item data-category="web development" style="position: relative;">
+    <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
+        <img src="./assets/images/Project-web2.png" alt="valentine" loading="lazy" style="width: 100%; display: block;">
+        <button type="button" onclick="openProjectModal(event, 'valentine-modal')" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'">
+            <ion-icon name="eye-outline"></ion-icon>
+        </button>
+    </figure>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">Valentine Website</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">HTML</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">CSS</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Creative</span>
+    </div>
+    <p class="project-category" style="color: #A1A1AA;">Web Development</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 12px;">
+        <button type="button" onclick="openProjectModal(event, 'valentine-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">View Details</button>
+    </div>
+</li>
+
+<!-- ========== ALL MODALS ========== -->
+
+<!-- RIVER MODAL -->
+<div id="river-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
+    <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
+        <button type="button" onclick="closeProjectModal('river-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;"><ion-icon name="close-outline"></ion-icon></button>
         <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
-            <img src="./assets/images/pbksc.PNG" alt="PBK Freelancing Platform Preview" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-            <!-- Gradient Overlay -->
-            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 60%, transparent 100%);"></div>
-            <!-- Project Name at Bottom -->
-            <h3 id="modal-title-pbk" style="position: absolute; bottom: 20px; left: 25px; right: 60px; color: #ffffff; font-size: 26px; font-weight: 700; margin: 0; text-shadow: 0 2px 10px rgba(0,0,0,0.8);">
-                PBK Freelancing Platform
-            </h3>
+            <img src="./assets/images/rmsc.PNG" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);"></div>
+            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">River Information Website</h3>
         </div>
-
-        <!-- Scrollable Details Content -->
         <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
-            
-            <div style="margin-bottom: 20px;">
-                <h4 style="color: #ffffff; font-size: 16px; margin-bottom: 8px;">Problem</h4>
-                <p style="font-size: 14px; margin: 0;">Freelancers need an accessible online platform to showcase their services, communicate their expertise and establish a professional presence for potential clients.</p>
-            </div>
+            <p style="font-size: 14px;"><b style="color:#fff;">About:</b> Information website built as final project for CSS course, focusing on rivers in Malawi.</p>
+            <p style="font-size: 14px;"><b style="color:#fff;">Solution:</b> Built responsive site with pure HTML/CSS using Flexbox, Grid, typography hierarchy and modern layouts.</p>
+            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">HTML5 · CSS3 · Responsive Design</p>
+            <div style="display: flex; gap: 15px; padding-top: 18px; border-top: 1px solid rgba(212,175,55,0.25);"><a href="https://b-kaluwa.github.io/RiverinMw/" target="_blank" style="color: #D4AF37; font-size: 13px; font-weight: 600; text-decoration: none;">Live Demo ↗</a></div>
+        </div>
+    </div>
+</div>
 
-            <div style="margin-bottom: 20px;">
-                <h4 style="color: #ffffff; font-size: 16px; margin-bottom: 8px;">Solution</h4>
-                <p style="font-size: 14px; margin: 0;">Developed the PBK Freelancing Platform as a web-based solution for presenting freelance services and providing visitors with an accessible way to explore the platform.</p>
-            </div>
+<!-- PBK MODAL -->
+<div id="pbk-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
+    <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
+        <button type="button" onclick="closeProjectModal('pbk-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;"><ion-icon name="close-outline"></ion-icon></button>
+        <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
+            <img src="./assets/images/pbksc.PNG" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);"></div>
+            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">PBK Freelancing Platform</h3>
+        </div>
+        <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
+            <p style="font-size: 14px;">Freelancing platform to showcase services and connect with clients.</p>
+            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">HTML5 · CSS3 · JavaScript · PHP · MySQL</p>
+            <div style="display: flex; gap: 15px; padding-top: 18px; border-top: 1px solid rgba(212,175,55,0.25);"><a href="https://b-kaluwa.github.io/PBK-freelancing/" target="_blank" style="color: #D4AF37; font-size: 13px; font-weight: 600; text-decoration: none;">Live Demo ↗</a><a href="https://github.com/B-kaluwa/PBK-freelancing" target="_blank" style="color: #D4AF37; font-size: 13px; font-weight: 600; text-decoration: none;">GitHub ↗</a></div>
+        </div>
+    </div>
+</div>
 
-            <div style="margin-bottom: 20px;">
-                <h4 style="color: #ffffff; font-size: 16px; margin-bottom: 8px;">Key Features</h4>
-                <ul style="padding-left: 20px; margin: 0; font-size: 14px;">
-                    <li style="margin-bottom: 6px;">Service presentation and information</li>
-                    <li style="margin-bottom: 6px;">Responsive website layout</li>
-                    <li style="margin-bottom: 6px;">Interactive user interface</li>
-                    <li style="margin-bottom: 6px;">Structured website navigation</li>
-                    <li style="margin-bottom: 6px;">Client-facing information and contact pathways</li>
-                </ul>
-            </div>
+<!-- UPGRADE MODAL -->
+<div id="upgrade-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
+    <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
+        <button type="button" onclick="closeProjectModal('upgrade-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;"><ion-icon name="close-outline"></ion-icon></button>
+        <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
+            <img src="./assets/images/upgrade.png" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);"></div>
+            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">Upgrade Learning Platform</h3>
+        </div>
+        <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
+            <p style="font-size: 14px;">Web design concept for an online learning platform with modern UI/UX.</p>
+            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">HTML · CSS · Web Design</p>
+            <div style="display: flex; gap: 15px; padding-top: 18px; border-top: 1px solid rgba(212,175,55,0.25);"><a href="https://b-kaluwa.github.io/Upgrade-learning/index.html" target="_blank" style="color: #D4AF37; font-size: 13px; font-weight: 600; text-decoration: none;">Live Demo ↗</a></div>
+        </div>
+    </div>
+</div>
 
-            <div style="margin-bottom: 20px;">
-                <h4 style="color: #ffffff; font-size: 16px; margin-bottom: 8px;">Technology Stack</h4>
-                <p style="font-size: 14px; color: #D4AF37; margin: 0;">HTML5 · CSS3 · JavaScript · PHP · MySQL</p>
-            </div>
+<!-- ATIA MODAL -->
+<div id="atia-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
+    <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
+        <button type="button" onclick="closeProjectModal('atia-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;"><ion-icon name="close-outline"></ion-icon></button>
+        <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
+            <img src="./assets/images/Project-atia1.PNG" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);"></div>
+            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">Android Tracker Investment Application</h3>
+        </div>
+        <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
+            <p style="font-size: 14px;">Mobile app to track investments, returns and portfolio performance on Android.</p>
+            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">Android · Java · Firebase</p>
+        </div>
+    </div>
+</div>
 
-            <div style="margin-bottom: 20px;">
-                <h4 style="color: #ffffff; font-size: 16px; margin-bottom: 8px;">My Contribution</h4>
-                <p style="font-size: 14px; margin: 0;">Designed and developed the platform's user interface, website structure and frontend functionality, while working with backend technologies to support the application's functionality.</p>
-            </div>
+<!-- MOBI MODAL -->
+<div id="mobi-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
+    <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
+        <button type="button" onclick="closeProjectModal('mobi-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;"><ion-icon name="close-outline"></ion-icon></button>
+        <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
+            <img src="./assets/images/mobidownloads.png" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);"></div>
+            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">Mobidownloads.</h3>
+        </div>
+        <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
+            <p style="font-size: 14px;">Mobile-focused download portal for apps, wallpapers and media content.</p>
+            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">HTML · CSS · Web Design</p>
+            <div style="display: flex; gap: 15px; padding-top: 18px; border-top: 1px solid rgba(212,175,55,0.25);"><a href="https://b-kaluwa.github.io/MobiDownloads/index.html" target="_blank" style="color: #D4AF37; font-size: 13px; font-weight: 600; text-decoration: none;">Live Demo ↗</a></div>
+        </div>
+    </div>
+</div>
 
-            <div style="display: flex; flex-wrap: wrap; gap: 15px; padding-top: 18px; border-top: 1px solid rgba(212,175,55,0.25);">
-                <a href="https://b-kaluwa.github.io/PBK-freelancing/" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; font-size: 13px; text-decoration: none; font-weight: 600;">Live Demo ↗</a>
-                <a href="https://github.com/B-kaluwa/PBK-freelancing" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; font-size: 13px; text-decoration: none; font-weight: 600;">GitHub ↗</a>
-            </div>
+<!-- TYPEFLOW MODAL -->
+<div id="typeflow-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
+    <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
+        <button type="button" onclick="closeProjectModal('typeflow-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;"><ion-icon name="close-outline"></ion-icon></button>
+        <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
+            <img src="./assets/images/typeflowsc.PNG" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);"></div>
+            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">Typeflow</h3>
+        </div>
+        <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
+            <p style="font-size: 14px;">Advanced typing practice platform to improve speed and accuracy.</p>
+            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">HTML · CSS · JavaScript</p>
+            <div style="display: flex; gap: 15px; padding-top: 18px; border-top: 1px solid rgba(212,175,55,0.25);"><a href="https://b-kaluwa.github.io/Typing-Advanced/" target="_blank" style="color: #D4AF37; font-size: 13px; font-weight: 600; text-decoration: none;">Live Demo ↗</a></div>
+        </div>
+    </div>
+</div>
+
+<!-- VIWEMI MODAL -->
+<div id="viwemi-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
+    <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
+        <button type="button" onclick="closeProjectModal('viwemi-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;"><ion-icon name="close-outline"></ion-icon></button>
+        <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
+            <img src="./assets/images/viwemi.png" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);"></div>
+            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">Viwemi Livestock</h3>
+        </div>
+        <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
+            <p style="font-size: 14px;">Business website for livestock farming, showcasing products and services.</p>
+            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">HTML · CSS · JavaScript</p>
+        </div>
+    </div>
+</div>
+
+<!-- VETCARE MODAL -->
+<div id="vetcare-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
+    <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
+        <button type="button" onclick="closeProjectModal('vetcare-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;"><ion-icon name="close-outline"></ion-icon></button>
+        <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
+            <img src="./assets/images/Vetcare.png" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);"></div>
+            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">Vetcare</h3>
+        </div>
+        <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
+            <p style="font-size: 14px;">Veterinary care application to manage pet health, appointments and records.</p>
+            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">Android · UI/UX · Mobile App</p>
+        </div>
+    </div>
+</div>
+
+<!-- KEEPIT MODAL -->
+<div id="keepit-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
+    <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
+        <button type="button" onclick="closeProjectModal('keepit-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;"><ion-icon name="close-outline"></ion-icon></button>
+        <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
+            <img src="./assets/images/keepit.png" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);"></div>
+            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">Keepit</h3>
+        </div>
+        <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
+            <p style="font-size: 14px;">Minimalist note-keeping application for organizing ideas and tasks.</p>
+            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">Android · Java · Local Storage</p>
+        </div>
+    </div>
+</div>
+
+<!-- VALENTINE MODAL -->
+<div id="valentine-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
+    <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
+        <button type="button" onclick="closeProjectModal('valentine-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;"><ion-icon name="close-outline"></ion-icon></button>
+        <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
+            <img src="./assets/images/Project-web2.png" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);"></div>
+            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">Valentine Website</h3>
+        </div>
+        <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
+            <p style="font-size: 14px;">Creative interactive Valentine-themed website with animations.</p>
+            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">HTML · CSS · JavaScript · Animations</p>
         </div>
     </div>
 </div>
@@ -1992,198 +2260,15 @@ I am particularly interested in full-stack development, cybersecurity, cloud tec
 
 
 
-
+			  
 
 
 
 
 			  
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
 
-                  <img src="./assets/images/rmsc.PNG" alt="information website site" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">information project</h3> <br>
-                <p><a  class="project-titile" href="https://b-kaluwa.github.io/RiverinMw/">view</a></p>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"><a></></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/pbksc.PNG" alt="freelancing site" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">PBK Freelancing site</h3>
-                <p><a class="project-titile" href="https://b-kaluwa.github.io/PBK-freelancing/">view</a></p>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/upgrade.png" alt="Upgrade learning" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Upgrade learning platform </h3>
-
-                <p><a href="https://b-kaluwa.github.io/Upgrade-learning/index.html">view</a></p>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Project-atia1.PNG" alt="ATIA" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Android Tracker investiment application</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/mobidownloads.png" alt="mobidownloads." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Mobidownloads.</h3>
-                <p><a class="project-titile" href="https://b-kaluwa.github.io/MobiDownloads/index.html">view</a></p>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web developement">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/typeflowsc.PNG" alt="typeflow" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Typeflow</h3> <br>
-                <p><a class="project-titile" href="https://b-kaluwa.github.io/Typing-Advanced/">view</a></p>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/viwemi.png" alt="viwemi website" loading="">
-                </figure>
-
-                <h3 class="project-title">Viwemi livestock</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Vetcare.png" alt="vetcare application" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Vetcare</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/keepit.png" alt="keepit" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Keepit</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Project-web2.png" alt="valentine" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Valentine website</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
 
           </ul>
 
