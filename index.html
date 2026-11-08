@@ -2873,35 +2873,51 @@ I am particularly interested in full-stack development, cybersecurity, cloud tec
 })();
 
 
-function openProjectModal(modalId) {
-    const modal = document.getElementById(modalId);
-    if (!modal) return;
-    modal.hidden = false;
-    modal.style.display = 'flex';
-    document.body.style.overflow = 'hidden'; // Prevent background scroll
+// Open modal - use openProjectModal(event, 'modal-id')
+function openProjectModal(e, modalId) {
+  if (e) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+  const modal = document.getElementById(modalId);
+  if (!modal) return;
+  
+  modal.hidden = false;
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden'; // lock background scroll
 }
 
+// Close modal
 function closeProjectModal(modalId) {
-    const modal = document.getElementById(modalId);
-    if (!modal) return;
-    modal.hidden = true;
-    modal.style.display = 'none';
-    document.body.style.overflow = ''; // Restore scroll
+  const modal = document.getElementById(modalId);
+  if (!modal) return;
+  
+  modal.hidden = true;
+  modal.style.display = 'none';
+  document.body.style.overflow = ''; // unlock scroll
 }
 
-// Close on ESC key
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-        document.querySelectorAll('.project-modal-overlay').forEach(m => {
-            if (!m.hidden) {
-                m.hidden = true;
-                m.style.display = 'none';
-            }
-        });
-        document.body.style.overflow = '';
-    }
+// Close when clicking on dark overlay (not on dialog)
+document.addEventListener('click', function(e) {
+  if (e.target.classList.contains('project-modal-overlay')) {
+    closeProjectModal(e.target.id);
+  }
 });
 
+// Close with ESC key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    document.querySelectorAll('.project-modal-overlay').forEach(m => {
+      if (!m.hidden) {
+        m.hidden = true;
+        m.style.display = 'none';
+      }
+    });
+    document.body.style.overflow = '';
+  }
+});
+
+	   
 
   </script>
 
