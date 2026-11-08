@@ -1888,308 +1888,106 @@ I am particularly interested in full-stack development, cybersecurity, cloud tec
 
 
 
-			  
-<li class="project-item active"
-    data-filter-item
-    data-category="web development"
-    style="position: relative;">
 
-    <!-- Project Image -->
-    <figure class="project-img"
-            style="position: relative; overflow: hidden; border-radius: 12px;">
+			  <li class="project-item active" data-filter-item data-category="web development" style="position: relative;">
 
-        <img src="./assets/images/pbksc.PNG"
-             alt="PBK Freelancing Platform"
-             loading="lazy"
-             style="width: 100%; display: block;">
-
-        <!-- Eye Icon: Appears when hovering over the image -->
-        <button type="button"
-                aria-label="View PBK project details"
-                aria-expanded="false"
-                onclick="toggleProjectDetails(this)"
-                onmouseenter="this.style.opacity='1'"
-                onmouseleave="this.style.opacity='0'"
-                onfocus="this.style.opacity='1'"
-                onblur="this.style.opacity='0'"
-                style="position: absolute;
-                       top: 50%;
-                       left: 50%;
-                       transform: translate(-50%, -50%);
-                       width: 50px;
-                       height: 50px;
-                       display: flex;
-                       align-items: center;
-                       justify-content: center;
-                       background: #D4AF37;
-                       color: #080808;
-                       border: none;
-                       border-radius: 50%;
-                       cursor: pointer;
-                       font-size: 23px;
-                       opacity: 0;
-                       transition: opacity 0.3s ease;
-                       z-index: 2;">
-
+    <!-- Project Card -->
+    <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
+        <img src="./assets/images/pbksc.PNG" alt="PBK Freelancing Platform" loading="lazy" style="width: 100%; display: block;">
+        
+        <button type="button" aria-label="View PBK project details" onclick="openProjectModal('pbk-modal')"
+            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;"
+            onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'" onfocus="this.style.opacity='1'" onblur="this.style.opacity='0'">
             <ion-icon name="eye-outline"></ion-icon>
         </button>
-
     </figure>
 
-    <!-- Project Title -->
-    <h3 class="project-title"
-        style="margin-top: 15px; color: #ffffff;">
-        PBK Freelancing Platform
-    </h3>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">PBK Freelancing Platform</h3>
 
-    <!-- Technology Stack -->
-    <div style="display: flex;
-                flex-wrap: wrap;
-                gap: 7px;
-                margin: 12px 0;">
-
-        <span style="background: #222222;
-                     color: #D4AF37;
-                     padding: 5px 9px;
-                     border-radius: 4px;
-                     font-size: 11px;">HTML</span>
-
-        <span style="background: #222222;
-                     color: #D4AF37;
-                     padding: 5px 9px;
-                     border-radius: 4px;
-                     font-size: 11px;">CSS</span>
-
-        <span style="background: #222222;
-                     color: #D4AF37;
-                     padding: 5px 9px;
-                     border-radius: 4px;
-                     font-size: 11px;">JavaScript</span>
-
-        <span style="background: #222222;
-                     color: #D4AF37;
-                     padding: 5px 9px;
-                     border-radius: 4px;
-                     font-size: 11px;">PHP</span>
-
-        <span style="background: #222222;
-                     color: #D4AF37;
-                     padding: 5px 9px;
-                     border-radius: 4px;
-                     font-size: 11px;">MySQL</span>
-
+    <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">HTML</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">CSS</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">JavaScript</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">PHP</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">MySQL</span>
     </div>
 
-    <!-- Project Category -->
-    <p class="project-category"
-       style="color: #A1A1AA;">
-        Web Development
-    </p>
+    <p class="project-category" style="color: #A1A1AA;">Web Development</p>
 
-    <!-- Project Actions -->
-    <div style="display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                gap: 15px;
-                margin-top: 12px;">
-
-        <a href="https://b-kaluwa.github.io/PBK-freelancing/"
-           target="_blank"
-           rel="noopener noreferrer"
-           style="color: #D4AF37;
-                  text-decoration: none;
-                  font-size: 13px;
-                  font-weight: 600;">
-            Live Demo
-        </a>
-
-        <a href="https://github.com/B-kaluwa/PBK-freelancing"
-           target="_blank"
-           rel="noopener noreferrer"
-           style="color: #D4AF37;
-                  text-decoration: none;
-                  font-size: 13px;
-                  font-weight: 600;">
-            GitHub
-        </a>
-
-        <button type="button"
-                onclick="toggleProjectDetails(this)"
-                aria-expanded="false"
-                style="background: transparent;
-                       color: #D4AF37;
-                       border: none;
-                       padding: 0;
-                       cursor: pointer;
-                       font-size: 13px;
-                       font-weight: 600;">
-            View Details
-            <ion-icon name="chevron-down-outline"
-                      style="vertical-align: middle; margin-left: 3px;">
-            </ion-icon>
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 15px; margin-top: 12px;">
+        <a href="https://b-kaluwa.github.io/PBK-freelancing/" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; text-decoration: none; font-size: 13px; font-weight: 600;">Live Demo</a>
+        <a href="https://github.com/B-kaluwa/PBK-freelancing" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; text-decoration: none; font-size: 13px; font-weight: 600;">GitHub</a>
+        <button type="button" onclick="openProjectModal('pbk-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">
+            View Details <ion-icon name="chevron-down-outline" style="vertical-align: middle; margin-left: 3px;"></ion-icon>
         </button>
-
     </div>
-
-    <!-- EXPANDABLE PROJECT CASE STUDY -->
-    <div class="project-details"
-         hidden
-         style="margin-top: 25px;
-                padding: 25px;
-                background: #111111;
-                border: 1px solid rgba(212,175,55,0.3);
-                border-radius: 10px;
-                color: #D4D4D4;
-                line-height: 1.8;">
-
-        <!-- Case Study Heading -->
-        <h3 style="color: #D4AF37;
-                   font-size: 21px;
-                   margin: 0 0 20px;">
-            PBK Freelancing Platform
-        </h3>
-
-        <!-- Problem -->
-        <div style="margin-bottom: 20px;">
-
-            <h4 style="color: #ffffff;
-                       font-size: 16px;
-                       margin-bottom: 8px;">
-                Problem
-            </h4>
-
-            <p style="font-size: 14px; margin: 0;">
-                Freelancers need an accessible online platform to
-                showcase their services, communicate their expertise
-                and establish a professional presence for potential
-                clients.
-            </p>
-
-        </div>
-
-        <!-- Solution -->
-        <div style="margin-bottom: 20px;">
-
-            <h4 style="color: #ffffff;
-                       font-size: 16px;
-                       margin-bottom: 8px;">
-                Solution
-            </h4>
-
-            <p style="font-size: 14px; margin: 0;">
-                Developed the PBK Freelancing Platform as a web-based
-                solution for presenting freelance services and
-                providing visitors with an accessible way to explore
-                the platform.
-            </p>
-
-        </div>
-
-        <!-- Features -->
-        <div style="margin-bottom: 20px;">
-
-            <h4 style="color: #ffffff;
-                       font-size: 16px;
-                       margin-bottom: 8px;">
-                Key Features
-            </h4>
-
-            <ul style="padding-left: 20px;
-                       margin: 0;
-                       font-size: 14px;">
-
-                <li style="margin-bottom: 6px;">
-                    Service presentation and information
-                </li>
-
-                <li style="margin-bottom: 6px;">
-                    Responsive website layout
-                </li>
-
-                <li style="margin-bottom: 6px;">
-                    Interactive user interface
-                </li>
-
-                <li style="margin-bottom: 6px;">
-                    Structured website navigation
-                </li>
-
-                <li style="margin-bottom: 6px;">
-                    Client-facing information and contact pathways
-                </li>
-
-            </ul>
-
-        </div>
-
-        <!-- Technology -->
-        <div style="margin-bottom: 20px;">
-
-            <h4 style="color: #ffffff;
-                       font-size: 16px;
-                       margin-bottom: 8px;">
-                Technology Stack
-            </h4>
-
-            <p style="font-size: 14px; color: #D4AF37; margin: 0;">
-                HTML5 · CSS3 · JavaScript · PHP · MySQL
-            </p>
-
-        </div>
-
-        <!-- Contribution -->
-        <div style="margin-bottom: 20px;">
-
-            <h4 style="color: #ffffff;
-                       font-size: 16px;
-                       margin-bottom: 8px;">
-                My Contribution
-            </h4>
-
-            <p style="font-size: 14px; margin: 0;">
-                Designed and developed the platform's user interface,
-                website structure and frontend functionality, while
-                working with backend technologies to support the
-                application's functionality.
-            </p>
-
-        </div>
-
-        <!-- Case Study Links -->
-        <div style="display: flex;
-                    flex-wrap: wrap;
-                    gap: 15px;
-                    padding-top: 18px;
-                    border-top: 1px solid rgba(212,175,55,0.25);">
-
-            <a href="https://b-kaluwa.github.io/PBK-freelancing/"
-               target="_blank"
-               rel="noopener noreferrer"
-               style="color: #D4AF37;
-                      font-size: 13px;
-                      text-decoration: none;
-                      font-weight: 600;">
-                Live Demo ↗
-            </a>
-
-            <a href="https://github.com/B-kaluwa/PBK-freelancing"
-               target="_blank"
-               rel="noopener noreferrer"
-               style="color: #D4AF37;
-                      font-size: 13px;
-                      text-decoration: none;
-                      font-weight: 600;">
-                GitHub ↗
-            </a>
-
-        </div>
-
-    </div>
-
 </li>
 
+<!-- POP-UP DIALOG BOX -->
+<div id="pbk-modal" class="project-modal-overlay" hidden onclick="if(event.target === this) closeProjectModal('pbk-modal')"
+     style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: flex; align-items: center; justify-content: center; padding: 20px;">
 
+    <div class="project-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title-pbk"
+         style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #D4AF37 #111;">
 
+        <!-- Close Button -->
+        <button type="button" aria-label="Close dialog" onclick="closeProjectModal('pbk-modal')"
+                style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;">
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <!-- Image Preview with Project Name Overlay -->
+        <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
+            <img src="./assets/images/pbksc.PNG" alt="PBK Freelancing Platform Preview" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            <!-- Gradient Overlay -->
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 60%, transparent 100%);"></div>
+            <!-- Project Name at Bottom -->
+            <h3 id="modal-title-pbk" style="position: absolute; bottom: 20px; left: 25px; right: 60px; color: #ffffff; font-size: 26px; font-weight: 700; margin: 0; text-shadow: 0 2px 10px rgba(0,0,0,0.8);">
+                PBK Freelancing Platform
+            </h3>
+        </div>
+
+        <!-- Scrollable Details Content -->
+        <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
+            
+            <div style="margin-bottom: 20px;">
+                <h4 style="color: #ffffff; font-size: 16px; margin-bottom: 8px;">Problem</h4>
+                <p style="font-size: 14px; margin: 0;">Freelancers need an accessible online platform to showcase their services, communicate their expertise and establish a professional presence for potential clients.</p>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <h4 style="color: #ffffff; font-size: 16px; margin-bottom: 8px;">Solution</h4>
+                <p style="font-size: 14px; margin: 0;">Developed the PBK Freelancing Platform as a web-based solution for presenting freelance services and providing visitors with an accessible way to explore the platform.</p>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <h4 style="color: #ffffff; font-size: 16px; margin-bottom: 8px;">Key Features</h4>
+                <ul style="padding-left: 20px; margin: 0; font-size: 14px;">
+                    <li style="margin-bottom: 6px;">Service presentation and information</li>
+                    <li style="margin-bottom: 6px;">Responsive website layout</li>
+                    <li style="margin-bottom: 6px;">Interactive user interface</li>
+                    <li style="margin-bottom: 6px;">Structured website navigation</li>
+                    <li style="margin-bottom: 6px;">Client-facing information and contact pathways</li>
+                </ul>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <h4 style="color: #ffffff; font-size: 16px; margin-bottom: 8px;">Technology Stack</h4>
+                <p style="font-size: 14px; color: #D4AF37; margin: 0;">HTML5 · CSS3 · JavaScript · PHP · MySQL</p>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <h4 style="color: #ffffff; font-size: 16px; margin-bottom: 8px;">My Contribution</h4>
+                <p style="font-size: 14px; margin: 0;">Designed and developed the platform's user interface, website structure and frontend functionality, while working with backend technologies to support the application's functionality.</p>
+            </div>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 15px; padding-top: 18px; border-top: 1px solid rgba(212,175,55,0.25);">
+                <a href="https://b-kaluwa.github.io/PBK-freelancing/" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; font-size: 13px; text-decoration: none; font-weight: 600;">Live Demo ↗</a>
+                <a href="https://github.com/B-kaluwa/PBK-freelancing" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; font-size: 13px; text-decoration: none; font-weight: 600;">GitHub ↗</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -2990,52 +2788,34 @@ I am particularly interested in full-stack development, cybersecurity, cloud tec
 })();
 
 
-
-	   
-function toggleProjectDetails(element) {
-
-    // Find the project item containing the clicked button
-    const project = element.closest(".project-item");
-
-    if (!project) return;
-
-    // Find the expandable case study
-    const details = project.querySelector(".project-details");
-
-    if (!details) return;
-
-    // Toggle visibility
-    const isOpening = details.hidden;
-
-    details.hidden = !isOpening;
-
-    // Update accessibility state on both buttons
-    const buttons = project.querySelectorAll(
-        'button[onclick="toggleProjectDetails(this)"]'
-    );
-
-    buttons.forEach(button => {
-        button.setAttribute("aria-expanded", String(isOpening));
-
-        const icon = button.querySelector("ion-icon");
-
-        if (icon) {
-            icon.setAttribute(
-                "name",
-                isOpening ? "eye-off-outline" : "eye-outline"
-            );
-        }
-    });
-
-    // Scroll the expanded details into view
-    if (isOpening) {
-        details.scrollIntoView({
-            behavior: "smooth",
-            block: "nearest"
-        });
-    }
+function openProjectModal(modalId) {
+    const modal = document.getElementById(modalId);
+    if (!modal) return;
+    modal.hidden = false;
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden'; // Prevent background scroll
 }
 
+function closeProjectModal(modalId) {
+    const modal = document.getElementById(modalId);
+    if (!modal) return;
+    modal.hidden = true;
+    modal.style.display = 'none';
+    document.body.style.overflow = ''; // Restore scroll
+}
+
+// Close on ESC key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        document.querySelectorAll('.project-modal-overlay').forEach(m => {
+            if (!m.hidden) {
+                m.hidden = true;
+                m.style.display = 'none';
+            }
+        });
+        document.body.style.overflow = '';
+    }
+});
 
 
   </script>
