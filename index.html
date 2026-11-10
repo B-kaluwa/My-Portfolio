@@ -1884,6 +1884,29 @@ I am particularly interested in full-stack development, cybersecurity, cloud tec
           <ul class="project-list">
 
 
+<!--  Expense Tracker -->
+<li class="project-item active" data-filter-item data-category="web development" style="position: relative;">
+    <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
+        <img src="./assets/images/extracker.png" alt="information website site" loading="lazy" style="width: 100%; display: block;">
+        <button type="button" onclick="openProjectModal(event, 'river-modal')" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #D4AF37; color: #080808; border: none; border-radius: 50%; cursor: pointer; font-size: 23px; opacity: 0; transition: opacity 0.3s ease; z-index: 2;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='0'">
+            <ion-icon name="eye-outline"></ion-icon>
+        </button>
+    </figure>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">Expense Tracker Website Application</h3>https://b-kaluwa.githubhttps://b-kaluwa.github.io/ExpenseTracker/dashboard.html.io/ExpenseTracker/
+    <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Frontend: HTML5, CSS3, JavaScript (Vanilla JS)</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Data Visualization: Chart.js.</span>
+        <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Firebase</span>
+		<span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">Deployment & Version Control: GitHub Pages and Git/GitHub</span>
+    </div>
+    <p class="project-category" style="color: #A1A1AA;">Web Development</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 12px;">
+        <a href="https://b-kaluwa.github.io/ExpenseTracker/" target="_blank" rel="noopener noreferrer" style="color: #D4AF37; text-decoration: none; font-size: 13px; font-weight: 600;">Live Demo</a>
+        <button type="button" onclick="openProjectModal(event, 'tracker-modal')" style="background: transparent; color: #D4AF37; border: none; padding: 0; cursor: pointer; font-size: 13px; font-weight: 600;">View Details</button>
+    </div>
+</li>			  
+
+
 <!-- 1. INFORMATION PROJECT - RIVER -->
 <li class="project-item active" data-filter-item data-category="web development" style="position: relative;">
     <figure class="project-img" style="position: relative; overflow: hidden; border-radius: 12px;">
@@ -1892,7 +1915,7 @@ I am particularly interested in full-stack development, cybersecurity, cloud tec
             <ion-icon name="eye-outline"></ion-icon>
         </button>
     </figure>
-    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">River Information Website</h3>
+    <h3 class="project-title" style="margin-top: 15px; color: #ffffff;">River Information Website</h3>https://b-kaluwa.githubhttps://b-kaluwa.github.io/RiverinMw/
     <div style="display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0;">
         <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">HTML5</span>
         <span style="background: #222222; color: #D4AF37; padding: 5px 9px; border-radius: 4px; font-size: 11px;">CSS3</span>
@@ -2091,6 +2114,37 @@ I am particularly interested in full-stack development, cybersecurity, cloud tec
 
 <!-- ========== ALL MODALS ========== -->
 
+
+<!-- expense tracker -->
+<div id="tracker-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
+    <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
+        <button type="button" onclick="closeProjectModal('river-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;"><ion-icon name="close-outline"></ion-icon></button>
+        <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
+            <img src="./assets/images/rmsc.PNG" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);"></div>
+            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">River Information Website</h3>
+        </div>
+        <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
+            <p style="font-size: 14px;"><b style="color:#fff;">About:</b>ExpenseTracker is a web-based personal finance management application designed to help individuals monitor, organize, and manage their financial activities. The platform enables users to record income and expenses, manage transaction records, upload receipt images, and monitor their financial position through an interactive dashboard. It provides financial summaries, category-based spending analysis, and graphical reports to help users understand their spending habits and make informed financial decisions. </p>
+            <p style="font-size: 14px;"><b style="color:#fff;">Solution:</b>  Developed a responsive personal finance management system featuring income and expense tracking, transaction categorization, receipt uploads, interactive financial dashboards, monthly reports, and data visualization using HTML, CSS, JavaScript, and Firebase.</p>
+            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">
+				Frontend: HTML5, CSS3, JavaScript (Vanilla JS).
+<br>
+Data Visualization: Chart.js.
+<br>
+Authentication: Firebase Authentication.
+<br>
+Database: Firebase Cloud Firestore (NoSQL).
+<br>
+Cloud Storage: Firebase Storage.
+<br>
+Deployment & Version Control: GitHub Pages and Git/GitHub.</p>
+            <div style="display: flex; gap: 15px; padding-top: 18px; border-top: 1px solid rgba(212,175,55,0.25);"><a href="https://b-kaluwa.github.io/RiverinMw/" target="_blank" style="color: #D4AF37; font-size: 13px; font-weight: 600; text-decoration: none;">Live Demo ↗</a></div>
+        </div>
+    </div>
+</div>
+			  
+
 <!-- RIVER MODAL -->
 <div id="river-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
     <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
@@ -2210,20 +2264,83 @@ I am particularly interested in full-stack development, cybersecurity, cloud tec
 </div>
 
 <!-- VETCARE MODAL -->
+
 <div id="vetcare-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
+
     <div style="position: relative; background: #111111; border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; width: 100%; max-width: 750px; max-height: 90vh; overflow-y: auto;">
-        <button type="button" onclick="closeProjectModal('vetcare-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;"><ion-icon name="close-outline"></ion-icon></button>
+
+        <button type="button" onclick="closeProjectModal('vetcare-modal')" style="position: absolute; top: 15px; right: 15px; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; background: #222; color: #fff; border: 1px solid rgba(212,175,55,0.4); border-radius: 50%; cursor: pointer; font-size: 20px; z-index: 5;">
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <!-- Project Image -->
         <div style="position: relative; width: 100%; height: 320px; overflow: hidden; border-radius: 14px 14px 0 0;">
-            <img src="./assets/images/Vetcare.png" style="width: 100%; height: 100%; object-fit: cover;">
+            <img src="./assets/images/Vetcare.png" alt="VetCare Veterinary Management Platform" style="width: 100%; height: 100%; object-fit: cover;">
             <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);"></div>
-            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">Vetcare</h3>
+            <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">VetCare — Animal Health Management Platform</h3>
         </div>
+
+        <!-- Project Details -->
         <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
-            <p style="font-size: 14px;">Veterinary care application to manage pet health, appointments and records.</p>
-            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">Android · UI/UX · Mobile App</p>
+
+            <!-- Overview -->
+            <h4 style="color: #D4AF37; font-size: 17px;">Project Overview</h4>
+
+            <p style="font-size: 14px;">
+                VetCare is a cross-platform digital veterinary healthcare management system developed as my final-year university project. It consists of Android and web-based applications designed to improve animal healthcare management by connecting pet owners and veterinary professionals through a centralized digital platform.
+            </p>
+
+            <!-- Problem -->
+            <h4 style="color: #fff; font-size: 16px;">Problem</h4>
+
+            <p style="font-size: 14px;">
+                Traditional animal healthcare management often involves fragmented medical records, limited access to veterinary services, and inefficient appointment coordination. VetCare addresses these challenges by providing a centralized platform for managing pet information, monitoring animal health, maintaining medical records, and facilitating communication between pet owners and veterinarians.
+            </p>
+
+            <!-- Solution -->
+            <h4 style="color: #fff; font-size: 16px;">Solution</h4>
+
+            <p style="font-size: 14px;">
+                Designed and developed an Android and web-based veterinary management platform using Flutter and Firebase, incorporating user authentication, pet profiles, digital health records, appointment management, veterinary service discovery, and animal health monitoring. The system was designed to support communication between pet owners and veterinary professionals while providing a foundation for intelligent symptom assessment and digital veterinary care.
+            </p>
+
+            <!-- Key Features -->
+            <h4 style="color: #fff; font-size: 16px;">Key Features</h4>
+
+            <ul style="font-size: 14px; padding-left: 20px;">
+                <li>Role-based authentication for pet owners and veterinary professionals.</li>
+                <li>Pet profile creation and animal health information management.</li>
+                <li>Digital veterinary records and health history tracking.</li>
+                <li>Appointment scheduling and veterinary service management.</li>
+                <li>Veterinarian directory for discovering veterinary professionals.</li>
+                <li>Animal symptom monitoring and proposed intelligent health assessment.</li>
+                <li>Communication and telemedicine support for remote veterinary consultations.</li>
+            </ul>
+
+            <!-- Technology Stack -->
+            <h4 style="color: #fff; font-size: 16px;">Technology Stack</h4>
+
+            <p style="font-size: 14px; color: #D4AF37;">
+                Flutter · Dart · Firebase Authentication · Cloud Firestore · Firebase Storage · Cloud Functions
+            </p>
+
+            <!-- Academic Contribution -->
+            <h4 style="color: #fff; font-size: 16px;">Academic Contribution</h4>
+
+            <p style="font-size: 14px;">
+                As my final-year Computer Science project, VetCare provided practical experience in cross-platform application development, UI/UX design, cloud-based database integration, authentication, software architecture, and solving real-world problems through technology. I contributed to the system's design, user interfaces, authentication workflows, and core application functionality.
+            </p>
+
+            <div style="border-top: 1px solid rgba(212,175,55,0.25); margin-top: 20px; padding-top: 15px;">
+                <p style="font-size: 12px; color: #D4AF37; margin: 0;">
+                    FINAL-YEAR UNIVERSITY PROJECT · ANDROID & WEB APPLICATION
+                </p>
+            </div>
+
         </div>
     </div>
 </div>
+
 
 <!-- KEEPIT MODAL -->
 <div id="keepit-modal" class="project-modal-overlay" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px;">
@@ -2235,8 +2352,8 @@ I am particularly interested in full-stack development, cybersecurity, cloud tec
             <h3 style="position: absolute; bottom: 20px; left: 25px; color: #fff; font-size: 26px; margin: 0;">Keepit</h3>
         </div>
         <div style="padding: 25px; color: #D4D4D4; line-height: 1.8;">
-            <p style="font-size: 14px;">Minimalist note-keeping application for organizing ideas and tasks.</p>
-            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">Android · Java · Local Storage</p>
+            <p style="font-size: 14px;">Minimalist cloud storage application for keeping pictures.</p>
+            <h4 style="color: #fff; font-size: 16px;">Tech Stack</h4><p style="font-size: 14px; color: #D4AF37;">Android · flutter · Firebase</p>
         </div>
     </div>
 </div>
