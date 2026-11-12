@@ -6,7 +6,73 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="google-site-verification" content="srPpZKHmPPk1bkuhDpAaO3vup8tWPIaRUwzaaHpcErI" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Portfolio</title>
+  <!-- ================= PRIMARY SEO META TAGS ================= -->
+
+<title>PRINCE B. KALUWA | Full-Stack Engineer & Technical Support Specialist</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="PRINCE B. KALUWA (PRINCE BOSCO KALUWA) is a Computer Science graduate, Full-Stack Engineer and Technical Support Specialist from Malawi, specializing in web development, software engineering, IT infrastructure, cybersecurity, cloud technologies and emerging technologies. Explore his professional portfolio, projects, technical skills, academic background and certifications.">
+
+<meta name="author" content="PRINCE B. KALUWA">
+
+<meta name="application-name" content="Prince B. Kaluwa Portfolio">
+
+<meta name="keywords" content="Prince B. Kaluwa, Prince Bosco Kaluwa, Prince Kaluwa Malawi, Full Stack Developer Malawi, Full Stack Engineer Malawi, Software Engineer Malawi, Computer Scientist Malawi, Technical Support Specialist Malawi, Web Developer Lilongwe, Software Developer, HTML, CSS, JavaScript, React, PHP, Node.js, Python, Flutter, Firebase, MySQL, MongoDB, Software Engineering, IT Support, Network Administration, Cybersecurity, Artificial Intelligence, Machine Learning, Data Analysis, Cloud Computing, GitHub Portfolio">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+<meta name="googlebot" content="index, follow">
+
+<meta name="language" content="English">
+
+<meta name="revisit-after" content="7 days">
+
+<!-- ================= CANONICAL URL ================= -->
+
+<link rel="canonical" href="https://b-kaluwa.github.io/My-Portfolio/">
+
+<!-- ================= GOOGLE / SEARCH PRESENTATION ================= -->
+
+<meta name="theme-color" content="#111111">
+
+<meta name="color-scheme" content="dark light">
+
+<!-- ================= OPEN GRAPH / FACEBOOK / LINKEDIN ================= -->
+
+<meta property="og:type" content="profile">
+
+<meta property="og:title" content="PRINCE B. KALUWA | Full-Stack Engineer & Technical Support Specialist">
+
+<meta property="og:description" content="Discover the professional portfolio of Prince B. Kaluwa, a Computer Science graduate and Full-Stack Engineer from Malawi. Explore software development projects, technical expertise, IT support experience and professional certifications.">
+
+<meta property="og:url" content="https://b-kaluwa.github.io/My-Portfolio/">
+
+<meta property="og:site_name" content="Prince B. Kaluwa | Professional Portfolio">
+
+<meta property="og:image" content="https://b-kaluwa.github.io/My-Portfolio/assets/images/Untitled%20design%20(7).png">
+
+<meta property="og:image:alt" content="PRINCE B. KALUWA - Full-Stack Engineer and Technical Support Specialist">
+
+<meta property="profile:first_name" content="Prince">
+
+<meta property="profile:last_name" content="Kaluwa">
+
+<!-- ================= TWITTER / X CARDS ================= -->
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title" content="PRINCE B. KALUWA | Full-Stack Engineer">
+
+<meta name="twitter:description" content="Professional portfolio showcasing software engineering, full-stack development, technical support, cybersecurity interests and technology projects by Prince B. Kaluwa from Malawi.">
+
+<meta name="twitter:image" content="https://b-kaluwa.github.io/My-Portfolio/assets/images/Untitled%20design%20(7).png">
+
+<meta name="twitter:image:alt" content="Prince B. Kaluwa professional profile">
+
+<!-- ================= STRUCTURED DATA: GOOGLE PERSON SCHEMA ================= -->
+
 
   <!--
     - favicon
@@ -803,6 +869,61 @@
 
 }
 
+
+ #profileDialog * {
+        box-sizing: border-box;
+    }
+
+    #profileDialog a {
+        transition: 0.3s ease;
+    }
+
+    #profileDialog a:hover {
+        color: #fff !important;
+        border-color: #D4AF37 !important;
+    }
+
+    #profileDialog button:hover {
+        background: #D4AF37 !important;
+        color: #111 !important;
+    }
+
+    @media (max-width: 600px) {
+
+        #profileDialog {
+            padding: 8px !important;
+            align-items: flex-start !important;
+        }
+
+        #profileDialog > div {
+            max-height: 98vh !important;
+            border-radius: 12px !important;
+        }
+
+        #profileDialog img {
+            width: 145px !important;
+            height: 145px !important;
+        }
+
+        #profileDialog h2 {
+            font-size: 21px !important;
+        }
+
+        #profileDialog > div > div:last-child {
+            padding: 20px 16px !important;
+        }
+
+        #profileDialog [style*="grid-template-columns"] {
+            grid-template-columns: 1fr !important;
+        }
+
+    }
+
+
+
+
+
+	  
 </style>
 
 </head>
@@ -941,122 +1062,395 @@
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+   <!-- ================= PROFILE SIDEBAR ================= -->
 
-      <div class="sidebar-info">
+<aside class="sidebar" data-sidebar>
 
-        <figure class="avatar-box">
-          <img src="assets/images/Untitled design (7).png" alt="Prince B. kaluwa" width="80" border-radius="40px !important" >
-          <!--imagep2f.png-->
+    <div class="sidebar-info">
+
+        <figure class="avatar-box"
+            style="cursor:pointer;"
+            onclick="openProfileDialog()"
+            title="Click to view profile">
+
+            <img src="assets/images/Untitled design (7).png"
+                 alt="Prince B. Kaluwa professional profile picture"
+                 width="80"
+                 style="border-radius:40px; cursor:pointer;">
+
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="PRINCE B. KALUWA">PRINCE B. KALUWA</h1>
 
-          <p class="title">FULL-STACK ENGINEER </p>
-          <BR>
-          <p class="title">TECHNICAL SUPPORT SPECIALIST </p>
+            <h1 class="name" title="PRINCE B. KALUWA">
+                PRINCE B. KALUWA
+            </h1>
+
+            <p class="title">FULL-STACK ENGINEER</p>
+
+            <br>
+
+            <p class="title">TECHNICAL SUPPORT SPECIALIST</p>
+
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down"></ion-icon>
         </button>
 
-      </div>
+    </div>
 
-      <div class="sidebar-info_more">
+
+    <div class="sidebar-info_more">
 
         <div class="separator"></div>
 
         <ul class="contacts-list">
 
-          <li class="contact-item">
+            <li class="contact-item">
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+                <div class="icon-box">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+                <div class="contact-info">
+                    <p class="contact-title">Email</p>
+                    <a href="mailto:kaluwaprincem@gmail.com"
+                       class="contact-link">
+                        kaluwaprincem@gmail.com
+                    </a>
+                </div>
 
-              <a href="kaluwaprincem@gmail.com" class="contact-link">kaluwaprincem@gmail.com</a>
-            </div>
+            </li>
 
-          </li>
 
-          <li class="contact-item">
+            <li class="contact-item">
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+                <div class="icon-box">
+                    <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+                <div class="contact-info">
+                    <p class="contact-title">Phone</p>
 
-              <a href="tel:+265999561582" class="contact-link">+ (265) 999 561 582  &nbsp \  + (265) 881 955 564</a>
-            </div>
+                    <a href="tel:+265999561582" class="contact-link">
+                        +265 999 561 582
+                    </a>
 
-          </li>
+                    <br>
 
-          <!--<li class="contact-item">
+                    <a href="tel:+265881955564" class="contact-link">
+                        +265 881 955 564
+                    </a>
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
+                </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+            </li>
 
-              <time datetime="2002-08-12">August 12, 2002</time>
-            </div>
 
-          </li>-->
+            <li class="contact-item">
 
-          <li class="contact-item">
+                <div class="icon-box">
+                    <ion-icon name="location-outline"></ion-icon>
+                </div>
 
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
+                <div class="contact-info">
+                    <p class="contact-title">Location</p>
+                    <address>Lilongwe, Malawi, Africa</address>
+                </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Lilongwe, Malawi, Africa</address>
-            </div>
-
-          </li>
+            </li>
 
         </ul>
+
 
         <div class="separator"></div>
 
+
         <ul class="social-list">
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon><h6>Pribo kaluwa prince</h6>
-            </a>
-          </li>
+            <li class="social-item">
+                <a href="https://github.com/B-kaluwa"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </li>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
+            <li class="social-item">
+                <a href="https://www.linkedin.com/in/prince-kaluwa-2a2bb5303"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon><h6>princekaluwa</h6>
-            </a>
-          </li>
+            <li class="social-item">
+                <a href="#"
+                   class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <h6>Pribo Kaluwa Prince</h6>
+                </a>
+            </li>
+
+            <li class="social-item">
+                <a href="#"
+                   class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <h6>princekaluwa</h6>
+                </a>
+            </li>
 
         </ul>
 
-      </div>
+    </div>
 
-    </aside>
+</aside>
+
+
+
+
+	  <!-- ================= PROFILE POPUP DIALOG ================= -->
+
+<div id="profileDialog"
+     onclick="if(event.target === this) closeProfileDialog()"
+     role="dialog"
+     aria-modal="true"
+     aria-labelledby="profileDialogName"
+     style="display:none; position:fixed; inset:0; width:100%; height:100%; height:100dvh; background:rgba(0,0,0,0.94); z-index:100000; align-items:center; justify-content:center; padding:20px; box-sizing:border-box; overflow-y:auto;">
+
+    <div style="position:relative; width:100%; max-width:850px; max-height:95vh; overflow-y:auto; background:#111; border:1px solid rgba(212,175,55,0.4); border-radius:18px; box-shadow:0 15px 60px rgba(0,0,0,0.7);">
+
+        <!-- Close Button -->
+        <button type="button"
+                onclick="closeProfileDialog()"
+                aria-label="Close profile dialog"
+                style="position:sticky; top:15px; float:right; margin:15px 15px -55px 0; z-index:10; width:42px; height:42px; display:flex; align-items:center; justify-content:center; background:#222; color:#D4AF37; border:1px solid rgba(212,175,55,0.5); border-radius:50%; cursor:pointer; font-size:25px;">
+
+            <ion-icon name="close-outline"></ion-icon>
+
+        </button>
+
+
+        <!-- Profile Header -->
+        <div style="padding:45px 25px 25px; text-align:center; background:linear-gradient(145deg,#191919,#080808); border-bottom:1px solid rgba(212,175,55,0.25);">
+
+            <!-- Enlarged Profile Picture -->
+            <div style="width:190px; height:190px; margin:0 auto 20px; padding:5px; border:2px solid #D4AF37; border-radius:50%; box-shadow:0 0 30px rgba(212,175,55,0.18);">
+
+                <img src="assets/images/Untitled design (7).png"
+                     alt="Prince B. Kaluwa"
+                     style="width:100%; height:100%; object-fit:cover; object-position:center; border-radius:50%; display:block;">
+
+            </div>
+
+
+            <h2 id="profileDialogName"
+                style="color:#fff; font-size:26px; font-weight:700; margin:10px 0; letter-spacing:1px;">
+
+                PRINCE B. KALUWA
+
+            </h2>
+
+            <p style="color:#D4AF37; font-size:14px; font-weight:600; margin:8px 0;">
+                PRINCE BOSCO KALUWA
+            </p>
+
+            <p style="color:#ccc; font-size:14px; margin:12px 0 0; line-height:1.8;">
+                FULL-STACK ENGINEER
+                <span style="color:#D4AF37;"> | </span>
+                TECHNICAL SUPPORT SPECIALIST
+            </p>
+
+        </div>
+
+
+        <!-- Profile Information -->
+        <div style="padding:25px 30px 30px; color:#D4D4D4; line-height:1.8;">
+
+            <!-- About -->
+            <h3 style="color:#D4AF37; font-size:17px; margin-bottom:12px;">
+                <ion-icon name="person-outline"></ion-icon>
+                About Me
+            </h3>
+
+            <p style="font-size:14px; margin-bottom:22px;">
+                I am a Computer Science graduate from DMI–St. John the Baptist University, specializing in Full-Stack Engineering and Technical Support. I am passionate about designing and developing practical software solutions, building responsive web and mobile applications, and supporting reliable IT infrastructure.
+                
+                My technical interests include software engineering, database management, cybersecurity, artificial intelligence, machine learning, cloud technologies, and emerging digital innovations. I strive to combine technical knowledge, problem-solving, creativity, and continuous learning to develop solutions that address real-world challenges.
+            </p>
+
+
+            <!-- Professional Expertise -->
+            <h3 style="color:#D4AF37; font-size:17px; margin-bottom:12px;">
+                <ion-icon name="code-slash-outline"></ion-icon>
+                Professional Expertise
+            </h3>
+
+            <div style="display:flex; flex-wrap:wrap; gap:9px; margin-bottom:25px;">
+
+                <span style="background:#202020; border:1px solid rgba(212,175,55,0.35); color:#D4AF37; padding:7px 12px; border-radius:20px; font-size:12px;">
+                    Full-Stack Development
+                </span>
+
+                <span style="background:#202020; border:1px solid rgba(212,175,55,0.35); color:#D4AF37; padding:7px 12px; border-radius:20px; font-size:12px;">
+                    Technical Support
+                </span>
+
+                <span style="background:#202020; border:1px solid rgba(212,175,55,0.35); color:#D4AF37; padding:7px 12px; border-radius:20px; font-size:12px;">
+                    Database Management
+                </span>
+
+                <span style="background:#202020; border:1px solid rgba(212,175,55,0.35); color:#D4AF37; padding:7px 12px; border-radius:20px; font-size:12px;">
+                    Mobile App Development
+                </span>
+
+                <span style="background:#202020; border:1px solid rgba(212,175,55,0.35); color:#D4AF37; padding:7px 12px; border-radius:20px; font-size:12px;">
+                    IT Infrastructure
+                </span>
+
+                <span style="background:#202020; border:1px solid rgba(212,175,55,0.35); color:#D4AF37; padding:7px 12px; border-radius:20px; font-size:12px;">
+                    Cybersecurity
+                </span>
+
+                <span style="background:#202020; border:1px solid rgba(212,175,55,0.35); color:#D4AF37; padding:7px 12px; border-radius:20px; font-size:12px;">
+                    AI & Machine Learning
+                </span>
+
+            </div>
+
+
+            <!-- Contact Information -->
+            <h3 style="color:#D4AF37; font-size:17px; margin-bottom:15px;">
+                <ion-icon name="call-outline"></ion-icon>
+                Contact Information
+            </h3>
+
+
+            <div style="display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:15px;">
+
+                <!-- Email -->
+                <div style="background:#1b1b1b; padding:15px; border-radius:9px; border:1px solid #292929;">
+
+                    <p style="color:#999; font-size:12px; margin:0 0 5px;">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        Email Address
+                    </p>
+
+                    <a href="mailto:kaluwaprincem@gmail.com"
+                       style="color:#D4AF37; font-size:13px; text-decoration:none; overflow-wrap:anywhere;">
+                        kaluwaprincem@gmail.com
+                    </a>
+
+                </div>
+
+
+                <!-- Phone -->
+                <div style="background:#1b1b1b; padding:15px; border-radius:9px; border:1px solid #292929;">
+
+                    <p style="color:#999; font-size:12px; margin:0 0 5px;">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                        Phone
+                    </p>
+
+                    <a href="tel:+265999561582"
+                       style="color:#D4AF37; font-size:13px; text-decoration:none;">
+                        +265 999 561 582
+                    </a>
+
+                    <br>
+
+                    <a href="tel:+265881955564"
+                       style="color:#D4AF37; font-size:13px; text-decoration:none;">
+                        +265 881 955 564
+                    </a>
+
+                </div>
+
+
+                <!-- Location -->
+                <div style="background:#1b1b1b; padding:15px; border-radius:9px; border:1px solid #292929;">
+
+                    <p style="color:#999; font-size:12px; margin:0 0 5px;">
+                        <ion-icon name="location-outline"></ion-icon>
+                        Location
+                    </p>
+
+                    <p style="color:#D4AF37; font-size:13px; margin:0;">
+                        Lilongwe, Malawi, Africa
+                    </p>
+
+                </div>
+
+
+                <!-- Education -->
+                <div style="background:#1b1b1b; padding:15px; border-radius:9px; border:1px solid #292929;">
+
+                    <p style="color:#999; font-size:12px; margin:0 0 5px;">
+                        <ion-icon name="school-outline"></ion-icon>
+                        Education
+                    </p>
+
+                    <p style="color:#D4AF37; font-size:13px; margin:0;">
+                        BSc Computer Science
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Social / Professional Links -->
+            <h3 style="color:#D4AF37; font-size:17px; margin:25px 0 15px;">
+                <ion-icon name="globe-outline"></ion-icon>
+                Professional Profiles
+            </h3>
+
+            <div style="display:flex; flex-wrap:wrap; gap:12px;">
+
+                <a href="https://github.com/B-kaluwa"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   style="display:flex; align-items:center; gap:8px; padding:11px 16px; background:#222; color:#fff; border:1px solid #444; border-radius:7px; text-decoration:none; font-size:13px;">
+
+                    <ion-icon name="logo-github"></ion-icon>
+                    GitHub
+                </a>
+
+
+                <a href="https://www.linkedin.com/in/prince-kaluwa-2a2bb5303"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   style="display:flex; align-items:center; gap:8px; padding:11px 16px; background:#222; color:#fff; border:1px solid #444; border-radius:7px; text-decoration:none; font-size:13px;">
+
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    LinkedIn
+                </a>
+
+            </div>
+
+
+            <!-- Portfolio Footer -->
+            <div style="text-align:center; margin-top:30px; padding-top:20px; border-top:1px solid rgba(212,175,55,0.25);">
+
+                <p style="font-size:12px; color:#888; margin:0;">
+                    PRINCE B. KALUWA
+                </p>
+
+                <p style="font-size:11px; color:#D4AF37; margin-top:5px;">
+                    FULL-STACK ENGINEER | TECHNICAL SUPPORT SPECIALIST
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
 
 
@@ -2930,6 +3324,59 @@ I am particularly interested in full-stack development, cybersecurity, cloud tec
 
 
 
+
+
+	   function openProfileDialog() {
+
+    const dialog = document.getElementById("profileDialog");
+
+    if (!dialog) return;
+
+    dialog.style.display = "flex";
+
+    document.body.style.overflow = "hidden";
+
+    // Focus the close button for keyboard accessibility
+    const closeButton = dialog.querySelector("button");
+
+    if (closeButton) {
+        closeButton.focus();
+    }
+
+}
+
+
+function closeProfileDialog() {
+
+    const dialog = document.getElementById("profileDialog");
+
+    if (!dialog) return;
+
+    dialog.style.display = "none";
+
+    document.body.style.overflow = "";
+
+}
+
+
+// Close popup with ESC key
+document.addEventListener("keydown", function(event) {
+
+    const dialog = document.getElementById("profileDialog");
+
+    if (event.key === "Escape" &&
+        dialog &&
+        dialog.style.display === "flex") {
+
+        closeProfileDialog();
+
+    }
+
+});
+
+
+
+
 /* =========================================
    PRELOADER CONTROLLER
 ========================================= */
@@ -3208,6 +3655,51 @@ document.addEventListener('keydown', function(event) {
 	   
 
   </script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Prince B. Kaluwa",
+  "alternateName": "Prince Bosco Kaluwa",
+  "url": "https://b-kaluwa.github.io/My-Portfolio/",
+  "image": "https://b-kaluwa.github.io/My-Portfolio/assets/images/Untitled%20design%20(7).png",
+  "jobTitle": [
+    "Full-Stack Engineer",
+    "Technical Support Specialist"
+  ],
+  "description": "Computer Science graduate specializing in full-stack engineering, software development and technical support.",
+  "email": "mailto:kaluwaprincem@gmail.com",
+  "telephone": "+265999561582",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lilongwe",
+    "addressCountry": "MW"
+  },
+  "sameAs": [
+    "https://github.com/B-kaluwa",
+    "https://www.linkedin.com/in/prince-kaluwa-2a2bb5303"
+  ],
+  "knowsAbout": [
+    "Full-Stack Web Development",
+    "Software Engineering",
+    "JavaScript",
+    "React",
+    "PHP",
+    "Node.js",
+    "Python",
+    "Flutter",
+    "Firebase",
+    "Database Management",
+    "Technical Support",
+    "IT Infrastructure",
+    "Cybersecurity",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Data Analysis"
+  ]
+}
+</script>
 
   <!--
     - ionicon link
